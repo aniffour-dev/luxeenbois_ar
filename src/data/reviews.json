@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Amina",
+      "review": "Produit pratique et élégant, très satisfaite !",
+      "rating": 5,
+      "image": "/reviews/1.jpg"
+    },
+    {
+      "name": "Youssef",
+      "review": "Montage facile, parfait pour un gain d’espace.",
+      "rating": 5,
+      "image": "/reviews/2.jpg"
+    },
+    {
+      "name": "Salma",
+      "review": "J’adore le design, vraiment peu encombrant !",
+      "rating": 5,
+      "image": "/reviews/3.jpg"
+    },
+    {
+      "name": "Mehdi",
+      "review": "Super achat, rangement optimal et gain de place.",
+      "rating": 5,
+      "image": "/reviews/4.jpg"
+    },
+    {
+      "name": "Fatima",
+      "review": "Facile à utiliser, garde tout bien organisé.",
+      "rating": 5,
+      "image": "/reviews/5.jpg"
+    },
+    {
+      "name": "Karim",
+      "review": "Idéal pour ranger mes chaussures, très utile.",
+      "rating": 5,
+      "image": "/reviews/6.jpg"
+    },
+    {
+      "name": "Nadia",
+      "review": "Bon produit, tourne bien et semble très solide.",
+      "rating": 5,
+      "image": "/reviews/7.jpg"
+    },
+    {
+      "name": "Omar",
+      "review": "Livraison rapide, correspond parfaitement à la description.",
+      "rating": 5,
+      "image": "/reviews/8.jpg"
+    },
+    {
+      "name": "Zineb",
+      "review": "Je recommande, très pratique pour les petits espaces.",
+      "rating": 5,
+      "image": "/reviews/9.jpg"
+    },
+    {
+      "name": "Rachid",
+      "review": "Qualité excellente, montage rapide et design agréable.",
+      "rating": 5,
+      "image": "/reviews/10.jpg"
+    },
+    {
+      "name": "Laila",
+      "review": "Rangement intelligent, parfait pour garder tout en ordre.",
+      "rating": 5,
+      "image": "/reviews/11.jpg"
+    },
+    {
+      "name": "Hassan",
+      "review": "Très satisfait, mes chaussures sont enfin organisées !",
+      "rating": 5,
+      "image": "/reviews/12.jpg"
+    }
+  ]
+  
