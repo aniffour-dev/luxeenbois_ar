@@ -11,8 +11,8 @@ const Header = () => {
   const [currentLang, setCurrentLang] = useState("EN");
 
   const languages = [
-    { code: "FR", name: "Français" },
-    { code: "AR", name: "Arabic" },
+    { code: "AR", name: "العربية" },
+    { code: "FR", name: "الفرنسية" },
   ];
 
   const handleLanguageChange = (langCode: string) => {
@@ -23,9 +23,9 @@ const Header = () => {
   return (
     <>
       <div className="bg-amber-500 py-2 text-white font-semibold flex justify-center items-center flex-col lg:flex-row gap-1 px-4 lg:px-0">
-        <span className="font-bold text-white">Special Offer🎉:</span>
+        <span className="font-bold text-white">عرض خاص🎉:</span>
         <span className="text-white">
-          Achetez 2 pour 3200dhs – Économisez 560dhs!
+        اشتري 2 مقابل 3200 درهم - وفر 560 درهم!
         </span>
       </div>
       <header className="w-full bg-white shadow-sm relative">
@@ -110,25 +110,25 @@ const Header = () => {
                 href="/"
                 className="block px-3 py-2 rounded-md hover:bg-gray-100"
               >
-                Home
+                الرئيسية
               </a>
               <a
                 href="/about"
                 className="block px-3 py-2 rounded-md hover:bg-gray-100"
               >
-                About
+                من نحن؟
               </a>
               <a
                 href="/reviews"
                 className="block px-3 py-2 rounded-md hover:bg-gray-100"
               >
-                Reviews
+                التعليقات
               </a>
               <a
                 href="/contact"
                 className="block px-3 py-2 rounded-md hover:bg-gray-100"
               >
-                Contact
+                اتصل بنا
               </a>
             </div>
           </nav>

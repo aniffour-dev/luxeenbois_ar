@@ -11,34 +11,34 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "Combien de chaussures ce porte-chaussures peut-il contenir?",
+    question: "كم عدد الأحذية التي يمكن أن تحتويها هذه الرفوف؟",
     answer:
-      "Le porte-chaussures peut contenir environ 35 à 40 paires de chaussures.",
+      "يمكن أن تحتوي الرفوف حوالي 35 إلى 40 زوجًا من الأحذية.",
   },
   {
-    question: "Est-ce difficile à assembler?",
+    question: "هل هو صعب التجميع؟",
     answer:
-      "Non, il est très facile à assembler avec des instructions incluses.",
+      "لا، إنه سهل التجميع جدًا مع التعليمات المرفقة.",
   },
   {
-    question: "De quels matériaux est fait le porte-chaussures?",
+    question: "من أي مواد مصنوعة هذه الرفوف؟",
     answer:
-      "Le porte-chaussures est fait de MDF durable pour la force et la qualité.",
+      "الرفوف مصنوعة من MDF متين للقوة والجودة.",
   },
   {
-    question: "Quelles sont les dimensions de ce produit?",
+    question: "ما هي أبعاد هذا المنتج؟",
     answer:
-      "Les dimensions sont: Diamètre: ( 60 cm ), Hauteur: ( 160 cm ). Il est très facile à assembler et très solide.",
+      "الأبعاد هي: القطر: (60 سم)، الارتفاع: (160 سم). إنه سهل التجميع جدًا ومتين جدًا.",
   },
   {
-    question: "Puis-je payer ma commande à la livraison ?",
+    question: "هل يمكنني الدفع عند التسليم؟",
     answer:
-      "Oui, nous proposons l'option de paiement à la livraison (Cash on Delivery - COD) pour votre commodité. Vous pouvez régler votre commande directement auprès du livreur à la réception.",
+      "نعم، نقدم خيار الدفع عند الاستلام (الدفع عند الاستلام - COD) لراحتك. يمكنك تسوية طلبك مباشرة مع المندوب عند الاستلام.",
   },
   {
-    question: "Livrez-vous dans tout le Maroc ?",
+    question: "هل تقومون بالتوصيل في جميع أنحاء المغرب؟",
     answer:
-      "Absolument ! Nous assurons la livraison dans toutes les régions du Maroc, afin que vous puissiez profiter de nos produits où que vous soyez.",
+      "بالطبع! نقوم بالتوصيل في جميع مناطق المغرب، حتى تتمكن من الاستمتاع بمنتجاتنا أينما كنت.",
   },
 ];
 
@@ -65,8 +65,8 @@ const FAQ: React.FC = () => {
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-xl">
               <div className="mb-6">
-                <h2 className="text-2xl text-center font-bold text-gray-900 leading-[3.25rem] mb-2 lg:text-left">
-                  Questions et réponses des clients
+                <h2 className="text-2xl text-center font-bold text-gray-900 leading-[3.25rem] mb-2 lg:text-right">
+                  أسئلة وأجوبة العملاء
                 </h2>
               </div>
               <div

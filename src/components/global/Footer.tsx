@@ -12,12 +12,12 @@ const Footer = () => {
           <div className="flex justify-between items-center">
             <ul>
               <li className="mb-6 text-sm text-slate-900 font-semibold max-w-[400px]">
-              Luxeenbois est une entreprise spécialisée dans la décoration intérieure et les dernières tendances déco
+                Luxeenbois هي شركة متخصصة في الديكور الداخلي وأحدث اتجاهات الديكور
               </li>
               <li className="mb-2.5 max-w-[300px]">
                 <Link href="/privacy-policy" className="mb-2 flex justify-start items-center gap-0.5">
                   <BiLocationPlus className="size-10 text-amber-500" />
-                  <span>Quartier Industriel Sidi Ghanem, 40000 Marrakech, Safi-Marrakech</span>
+                  <span>حي سيدي غانم الصناعي، 40000 مراكش، آسفي-مراكش</span>
                 </Link>
               </li>
               <li className="mb-2.5">
@@ -41,17 +41,17 @@ const Footer = () => {
               <ul>
                 <li className="mb-5">
                   <Link href="/privacy-policy" className="mb-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
-                    Politique de confidentialité
+                    سياسة الخصوصية
                   </Link>
                 </li>
                 <li className="mb-5">
                   <Link href="/changelog" className="mb-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
-                    À propos
+                    حول
                   </Link>
                 </li>
                 <li className="mb-5">
                   <Link href="/changelog" className="mb-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
-                    Contact
+                    اتصل بنا
                   </Link>
                 </li>
               </ul>

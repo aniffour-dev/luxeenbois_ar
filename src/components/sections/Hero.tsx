@@ -314,9 +314,8 @@ const ProductPage = () => {
         <div className="space-y-6">
           <header className="order-2 md:order-1">
             <h1 className="text-lg md:text-3xl font-bold text-gray-900">
-              360° Rotation Porte-chaussures{" "}
-              <span className="font-black">MDF</span>, Tient 35 Paires, Peu
-              encombrant, Facile à Assembler, Durable, Design Élégant
+              رف أحذية MDF يدور 360 درجة، ملون 35 زوجًا، موفر للمساحة، سهل
+              التجميع، متين، تصميم أنيق
             </h1>
           </header>
 
@@ -338,15 +337,14 @@ const ProductPage = () => {
             >
               <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
             </svg>
-            <span className="text-gray-500 ml-2">1624 avis</span>
+            <span className="text-gray-500 ml-2">1624 تعليق</span>
           </section>
 
           <section>
             <p className="text-gray-600">
-              LuxeEnBois vous propose la tour de rangement de chaussures
-              rotative originale, 7 couches pouvant contenir plus de 35 paires
-              de chaussures, une tour de rangement de chaussures rotative à 360
-              degrés, un organisateur de placard à chaussures rotatif.
+              تقدم لك LuxeEnBois برج تخزين الأحذية الدوار الأصلي، 7 طبقات يمكن
+              أن تحمل أكثر من 35 زوجًا من الأحذية، برج تخزين الأحذية الدوار 360
+              درجة، منظم خزانة الأحذية الدوار.
             </p>
           </section>
 
@@ -356,23 +354,21 @@ const ProductPage = () => {
                 isSpecialOffer ? "text-emerald-500" : "text-emerald-600"
               }`}
             >
-              {isSpecialOffer ? "3200 DHs" : "1880 DHs"}
+              {isSpecialOffer ? "3200 درهم" : "1880 درهم"}
             </span>
             {isSpecialOffer && (
               <span
                 className={`${bodoni.className} text-gray-500 line-through text-lg`}
               >
-                3760 DHs
+                3760 درهم
               </span>
             )}
             <span className="text-red-500 text-lg font-semibold">
-              {isSpecialOffer ? "20% de réduction" : "20% de réduction"}
+              {isSpecialOffer ? "خصم 20%" : "خصم 20%"}
             </span>
           </section>
 
-          <h4 className="text-black font-semibold my-3 mt-0">
-            Special Offer🎉
-          </h4>
+          <h4 className="text-black font-semibold my-3 mt-0">عرض خاص🎉</h4>
 
           <button
             className={`${
@@ -383,13 +379,13 @@ const ProductPage = () => {
             onClick={() => setIsSpecialOffer(!isSpecialOffer)}
           >
             {isSpecialOffer
-              ? "Désélectionner l'offre spéciale"
-              : "Achetez 2 pour 3200dhs – Économisez 560dhs!"}
+              ? "اشتري 2 مقابل 3200 درهم - وفر 560 درهم!"
+              : "اشتري 2 مقابل 3200 درهم - وفر 560 درهم!"}
           </button>
 
           <section className="flex justify-start items-center gap-8">
             <div className="flex justify-start items-center gap-2">
-              <h3 className="font-medium text-gray-800">Couleur:</h3>
+              <h3 className="font-medium text-gray-800">اللون:</h3>
               <div className="flex gap-2">
                 {colors.map((color) => (
                   <button
@@ -440,18 +436,17 @@ const ProductPage = () => {
             className="space-y-4 bg-white shadow-lg rounded-lg p-5 border-[1px] border-slate-100"
           >
             <h4 className="text-md text-black font-semibold mb-3">
-              Pour acheter ces articles, veuillez remplir ce formulaire
-              ci-dessous !
+              لشراء هذا المنتج، يرجى ملء هذا النموذج أدناه!
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-gray-900 text-[13px] font-semibold mb-1">
-                  Nom et prénom:
+                  الاسم الأول والأخير:
                 </label>
                 <input
                   type="text"
                   name="name"
-                  placeholder="🙎‍♂️ Nom et prénom:"
+                  placeholder="🙎‍♂️ الاسم الأول والأخير:"
                   required
                   className="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={formData.name}
@@ -465,12 +460,12 @@ const ProductPage = () => {
 
               <div>
                 <label className="block text-gray-900 text-[13px] font-semibold mb-1">
-                  Email
+                  بريد إلكتروني
                 </label>
                 <input
                   type="email"
                   name="email"
-                  placeholder="📧 Adresse Email"
+                  placeholder="📧 بريد إلكتروني"
                   required
                   className="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={formData.email}
@@ -488,12 +483,12 @@ const ProductPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-gray-900 text-[13px] font-semibold mb-1">
-                  Téléphone:
+                  رقم الهاتف
                 </label>
                 <input
                   type="tel"
                   name="phone"
-                  placeholder="📞 Numéro De Téléphone"
+                  placeholder="📞 رقم الهاتف"
                   required
                   className="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={formData.phone}
@@ -509,12 +504,12 @@ const ProductPage = () => {
 
               <div>
                 <label className="block text-gray-900 text-[13px] font-semibold mb-1">
-                  Ville:
+                  مدينة:
                 </label>
                 <input
                   type="tel"
                   name="city"
-                  placeholder="🏘️ Ville"
+                  placeholder="🏘️ مدينة"
                   required
                   className="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={formData.city}
@@ -529,11 +524,11 @@ const ProductPage = () => {
 
             <div>
               <label className="block text-gray-900 text-[13px] font-semibold mb-1">
-                Adresse de livraison:
+                عنوان التسليم:
               </label>
               <textarea
                 name="address"
-                placeholder="📍 Adresse de livraison"
+                placeholder="📍 عنوان التسليم"
                 required
                 className="shadow appearance-none border h-20 max-h-20 min-h-20 rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 value={formData.address}
@@ -551,10 +546,10 @@ const ProductPage = () => {
             <div className="flex justify-center items-center my-3 cursor-none">
               <div className="border-2 border-slate-700 rounded-lg max-w-[300px] flex justify-center items-center py-1 px-4 gap-0.5">
                 <span className="text-slate-800 font-bold text-lg uppercase italic">
-                  Free
+                  توصيل
                 </span>
                 <span className="text-red-500 font-bold text-lg uppercase italic">
-                  Delivery
+                  مجاني
                 </span>
               </div>
             </div>
@@ -570,7 +565,7 @@ const ProductPage = () => {
                 {isSubmitting ? (
                   <FaSpinner className="animate-spin h-5 w-5 text-white mr-3" />
                 ) : null}
-                {isSubmitting ? "Acheter maintenant..." : "Acheter maintenant"}
+                {isSubmitting ? "اشتري الآن..." : "اشتري الآن"}
               </button>
             </div>
           </form>
@@ -580,25 +575,25 @@ const ProductPage = () => {
               <div className="bg-white shadow rounded p-3 text-center flex justify-center items-center flex-col border-[1px] border-slate-100">
                 <FaShippingFast className="size-6 mb-2 mt-1.5 text-amber-500" />
                 <p className="text-sm mb-1.5 text-slate-800 font-semibold">
-                  Livraison Rapide
+                  تسليم سريع
                 </p>
               </div>
               <div className="bg-white shadow rounded p-3 px-3 text-center flex justify-center items-center flex-col border-[1px] border-slate-100">
                 <TbTruckReturn className="size-7 mb-2 mt-1.5 text-amber-500" />
                 <p className="text-sm mb-1.5 text-slate-800 font-semibold">
-                  Retour Gratuit
+                  العودة الحرة
                 </p>
               </div>
               <div className="bg-white shadow rounded p-3 px-3 text-center flex justify-center items-center flex-col border-[1px] border-slate-100">
                 <TfiPackage className="size-6 mb-2 mt-1.5 text-amber-500" />
                 <p className="text-sm mb-1.5 text-slate-800 font-semibold">
-                  Assurez l&apos;emballage
+                  التأكد من التغليف
                 </p>
               </div>
               <div className="bg-white shadow rounded p-3 px-3 text-center flex justify-center items-center flex-col border-[1px] border-slate-100">
                 <SlBadge className="size-6 mb-2 mt-1.5 text-amber-500" />
                 <p className="text-sm mb-1.5 text-slate-800 font-semibold">
-                  100% Produits Local
+                  منتجات محلية 100%
                 </p>
               </div>
             </div>
@@ -606,7 +601,7 @@ const ProductPage = () => {
 
           <section className="flex justify-center items-center flex-col">
             <div className="text-black font-medium my-2">
-              Livraison à domicile partout au Maroc paiement à la livraison
+              التوصيل إلى المنزل في جميع أنحاء المغرب الدفع عند الاستلام
             </div>
             <Image
               src={Product}
@@ -620,42 +615,38 @@ const ProductPage = () => {
             <li className="text-sm text-slate-900 font-semibold flex justify-start items-center gap-2 mb-2.5">
               <BiCheck className="size-8 text-emerald-500" />
               <span>
-                Le porte-chaussures 7 niveaux en{" "}
-                <span className="font-bold">MDF</span> peut contenir jusqu'à 35
-                paires de chaussures
+                رف الأحذية ذو 7 مستويات مصنوع من{" "}
+                <span className="font-bold">MDF</span> يمكنه استيعاب ما يصل إلى
+                35 زوجًا من الأحذية
               </span>
             </li>
             <li className="text-sm text-slate-900 font-semibold flex justify-start items-center gap-2 mb-2.5">
               <BiCheck className="size-8 text-emerald-500" />
               <span>
-                Conception rotative à 360 degrés pour économiser de l'espace et
-                garder les placards bien rangés
+                تصميم دوار بزاوية 360 درجة لتوفير المساحة والحفاظ على ترتيب
+                الخزائن
               </span>
             </li>
             <li className="text-sm text-slate-900 font-semibold flex justify-start items-center gap-2 mb-2.5">
               <BiCheck className="size-8 text-emerald-500" />
               <span>
-                Facile à assembler, propre et fabriqué avec des matériaux
-                solides et de haute qualité
+                سهل التركيب والتنظيف ومصنوع من مواد متينة وعالية الجودة
               </span>
             </li>
             <li className="text-sm text-slate-900 font-semibold flex justify-start items-center gap-2 mb-2.5">
               <BiCheck className="size-8 text-emerald-500" />
-              <span>Un design élégant complète tout décor à la maison.</span>
-            </li>
-            <li className="text-sm text-slate-900 font-semibold flex justify-start items-center gap-2 mb-2.5">
-              <BiCheck className="size-8 text-emerald-500" />
-              <span>
-                Utilisation polyvalente pour les chaussures, sacs, foulards,
-                chapeaux, et plus encore.
-              </span>
+              <span>تصميم أنيق يكمل أي ديكور في المنزل.</span>
             </li>
             <li className="text-sm text-slate-900 font-semibold flex justify-start items-center gap-2 mb-2.5">
               <BiCheck className="size-8 text-emerald-500" />
               <span>
-                Solution de stockage durable et peu encombrante pour les
-                familles nombreuses
+                استخدام متعدد الوظائف للأحذية، الحقائب، الأوشحة، القبعات، وأكثر
+                من ذلك.
               </span>
+            </li>
+            <li className="text-sm text-slate-900 font-semibold flex justify-start items-center gap-2 mb-2.5">
+              <BiCheck className="size-8 text-emerald-500" />
+              <span>حل تخزين متين وموفر للمساحة للعائلات الكبيرة</span>
             </li>
           </ul>
           <section className="flex justify-center items-center flex-col">

@@ -7,10 +7,10 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { label: "Accueil", href: "/" },
-  { label: "A propos", href: "/about" },
-  { label: "Avis", href: "/reviews" },
-  { label: "Contact", href: "/contact" },
+  { label: "الرئيسية", href: "/" },
+  { label: "من نحن؟", href: "/about" },
+  { label: "التعليقات", href: "/reviews" },
+  { label: "اتصل بنا", href: "/contact" },
 ];
 
 const Menu: React.FC = () => {
